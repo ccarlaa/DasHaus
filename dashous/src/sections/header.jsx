@@ -5,6 +5,13 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 const Header = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
+    const scrollToTop = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth",
+        });
+    };
+
     const menuItems = [
         { label: "Sobre Nós", href: "#sobre-nos" },
         { label: "Serviços", href: "#servicos" },
@@ -14,9 +21,9 @@ const Header = () => {
     ];
 
     return (
-        <header className="w-full bg-white h-20 flex justify-center px-6 lg:px-0">
+        <header className="w-full bg-white h-20 flex justify-center px-6 lg:px-0 fixed top-0 left-0 right-0 z-50 shadow-md">
             <div className="w-full max-w-[1024px] h-full flex justify-between items-center">
-                <img src={Logo} alt="logo" className="h-12 lg:h-auto" />
+                <img src={Logo} alt="logo" className="h-12 lg:h-auto cursor-pointer" onClick={scrollToTop} />
 
                 {/* Desktop Menu */}
                 <nav className="hidden lg:flex gap-10 items-center">

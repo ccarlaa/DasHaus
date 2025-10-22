@@ -10,25 +10,27 @@ import WhatsApp from "./assets/whatsapp.svg"
 
 const App = () => {
   return (
-    <div className="flex flex-col gap-20 overflow-hidden">
+    <div className="flex flex-col overflow-hidden">
       <Header />
-      <Hero />
-      <div id="sobre-nos">
-        <Proposal />
-      </div>
-      <div id="servicos">
-        <Benefits />
-      </div>
-      <div id="depoimentos">
-        <Testimonials />
-      </div>
-      <div id="duvidas">
-        <Fac />
-      </div>
-      <div id="contato">
-        <Cta />
-      </div>
-      <Footer />
+      <main className="flex flex-col gap-20 pt-20">
+        <Hero />
+        <div id="sobre-nos">
+          <Proposal />
+        </div>
+        <div id="servicos">
+          <Benefits />
+        </div>
+        <div id="depoimentos">
+          <Testimonials />
+        </div>
+        <div id="duvidas">
+          <Fac />
+        </div>
+        <div id="contato">
+          <Cta />
+        </div>
+        <Footer />
+      </main>
       <img src={WhatsApp} alt="whatsapp_button" className="size-16 cursor-pointer fixed bottom-8 right-8 hover:opacity-90" />
     </div>
   )

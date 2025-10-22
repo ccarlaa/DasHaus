@@ -3,10 +3,17 @@ import bgSrc from "../assets/bg.svg";
 import { FaLinkedin, FaInstagram } from 'react-icons/fa';
 
 const Footer = () => {
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
   return (
     <footer className="w-full h-auto bg-gray-100 relative overflow-hidden flex items-center justify-center flex-col" style={{ backgroundImage: `url(${bgSrc})`, backgroundRepeat: 'repeat' }}>
             <div className="w-full max-w-[1024px] flex flex-col lg:flex-row justify-between items-center p-6 lg:p-14 gap-10 lg:gap-0">
-                <div className="w-28 lg:w-36">
+                <div className="w-28 lg:w-36 cursor-pointer" onClick={scrollToTop}>
                     <img src={logoSrc} alt="DasHaus Negócios" className="w-full h-auto" />
                 </div>
                 <div className="flex flex-col items-center lg:items-end gap-4">
