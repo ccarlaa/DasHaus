@@ -30,7 +30,7 @@ const Hero = () => {
     return (
         <section ref={sectionRef} className="w-full min-h-[500px] lg:min-h-[753px] bg-white flex justify-center relative px-6 lg:px-0">
             <div className="w-full lg:max-w-[1024px] md:max-w-[500px] flex justify-center flex-col gap-6 lg:gap-10 py-10 lg:py-0">
-                <h1 className={`font-bold text-gray-200  lg:text-left text-center  md:text-2xl lg:text-5xl w-full lg:w-[680px] tracking-wider lg:tracking-widest transition-all duration-700 ease-out ${
+                <h1 className={`font-bold text-gray-200  lg:text-left text-center text-lg  md:text-2xl lg:text-5xl w-full lg:w-[680px] tracking-wider lg:tracking-widest transition-all duration-700 ease-out ${
                     isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-10'
                 }`}>
                     Valorizando seu imóvel e melhorando sua qualidade de vida!
