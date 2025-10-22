@@ -13,11 +13,21 @@ const App = () => {
     <div className="flex flex-col gap-20 overflow-hidden">
       <Header />
       <Hero />
-      <Proposal />
-      <Benefits />
-      <Testimonials />
-      <Fac />
-      <Cta />
+      <div id="sobre-nos">
+        <Proposal />
+      </div>
+      <div id="servicos">
+        <Benefits />
+      </div>
+      <div id="depoimentos">
+        <Testimonials />
+      </div>
+      <div id="duvidas">
+        <Fac />
+      </div>
+      <div id="contato">
+        <Cta />
+      </div>
       <Footer />
       <img src={WhatsApp} alt="whatsapp_button" className="size-16 cursor-pointer fixed bottom-8 right-8 hover:opacity-90" />
     </div>

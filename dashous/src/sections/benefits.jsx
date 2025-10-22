@@ -48,21 +48,21 @@ const Benefits = () => {
     }, []);
 
     return (
-        <section ref={sectionRef} className="w-full h-fit bg-white flex gap-20 md:gap-40 flex-col justify-center items-center relative px-6 md:px-0 py-10 md:py-0">
-            <div className="w-full max-w-[1024px] flex justify-center flex-col gap-6 md:gap-10">
-                <h1 className={`font-bold text-gray-200 text-xl md:text-2xl w-full md:w-[700px] tracking-wider md:tracking-widest transition-all duration-700 ease-out ${
+        <section ref={sectionRef} className="w-full h-fit bg-white flex gap-10 flex-col justify-center items-center relative px-6 lg:px-0 py-10 lg:py-20">
+            <div className="w-full max-w-[1024px] flex justify-center flex-col gap-6 lg:gap-10">
+                <h1 className={`font-bold text-gray-200 text-xl lg:text-2xl md:text-left text-center w-full md:max-w-[700px] tracking-wider lg:tracking-widest transition-all duration-700 ease-out ${
                     isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-10'
                 }`}>
                     O que a Das Haus entrega como síndico profissional?
                 </h1>
-                <p className={`font-medium text-gray-200 text-base md:text-lg w-full md:w-[700px] transition-all duration-700 ease-out delay-150 ${
+                <p className={`font-medium text-gray-200 text-base lg:text-lg w-full max-w-[650px] transition-all duration-700 ease-out delay-150 ${
                     isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-5'
                 }`}>
                     Desde 1996, oferecemos uma gestão profissional completa e transparente, com um síndico certificado com o
                     <span className="text-red-default font-bold"> Selo 5 Estrelas, </span>
                     o mais alto reconhecimento da categoria.
                 </p>
-                <div className="w-full md:w-fit flex flex-col gap-2">
+                <div className="w-full lg:w-fit flex flex-col gap-2">
                     {badges.map((badge, index) => (
                         <div
                             key={index}
@@ -76,7 +76,7 @@ const Benefits = () => {
                     ))}
                 </div>
             </div>
-            <div className={`w-full md:w-80 transition-all duration-700 ease-out ${
+            <div className={`w-full lg:w-80 transition-all duration-700 ease-out ${
                 isVisible ? 'opacity-100 scale-100' : 'opacity-0 scale-95'
             }`}
             style={{ transitionDelay: '900ms' }}>
@@ -85,7 +85,7 @@ const Benefits = () => {
             <img
                 src={BenefitsImage}
                 alt="people_working"
-                className={`absolute right-0 bottom-0 h-48 md:h-auto hidden md:block transition-all duration-1000 ease-out ${
+                className={`absolute hidden lg:block right-0 bottom-0 h-auto lg:w-[400px] xl:w-[500px] 2xl:w-auto transition-all duration-1000 ease-out ${
                     isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-20'
                 }`}
             />

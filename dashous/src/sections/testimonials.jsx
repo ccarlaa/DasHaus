@@ -31,19 +31,6 @@ const testimonialsData = [
     author: "Teresa Cristina",
     title: "Moradora e proprietária"
   },
-  {
-    text:
-        `Atuar como conselheira é muito mais eficaz
-        quando temos uma síndica como a Silvia Perez.
-        Líder preparada e acolhedora, ela conduz o
-        condomínio com firmeza, elegância e respeito. Está
-        sempre aberta ao diálogo e faz questão de incluir
-        o conselho nas decisões importantes. Sua forma de
-        administrar inspira confiança e fortalece a união
-        da gestão.`,
-    author: "Teresa Cristina",
-    title: "Moradora e proprietária"
-  }
 ];
 
 export default function Testimonials() {
@@ -79,20 +66,20 @@ export default function Testimonials() {
 
   return (
     <section className=" px-5 bg-white text-center">
-      <h2 className="text-3xl md:text-4xl font-light tracking-[0.5rem] mb-14 text-gray-800">
+      <h2 className="text-3xl lg:text-4xl font-light tracking-[0.2rem] lg:tracking-[0.5rem] mb-14 text-gray-800">
         DEPOIMENTOS
       </h2>
 
-      <div className="flex flex-col md:flex-row items-center justify-center gap-10 max-w-6xl mx-auto relative">
+      <div className="flex flex-row items-center justify-center gap-4 lg:gap-10 max-w-6xl mx-auto relative">
         <button
-          className="bg-blue-default rounded-full w-14 h-14 md:w-16 md:h-16 flex items-center justify-center cursor-pointer transition-all duration-300 hover:bg-[#08304d] hover:scale-110 flex-shrink-0"
+          className="bg-blue-default rounded-full w-10 md:w-14 h-10 md:h-14 lg:w-16 lg:h-16 flex items-center justify-center cursor-pointer transition-all duration-300 hover:bg-[#08304d] hover:scale-110 flex-shrink-0"
           onClick={goToPrevious}
           aria-label="Depoimento anterior"
         >
           <ChevronLeftIcon className="size-8 stroke-[2] text-white" />
         </button>
 
-        <div className={`bg-white rounded-3xl px-8 md:px-20 py-12 md:py-16 max-w-3xl relative shadow-lg transition-all duration-500 ease-in-out ${
+        <div className={`bg-white rounded-3xl px-8 lg:px-20 py-12 lg:py-16 max-w-3xl relative shadow-lg transition-all duration-500 ease-in-out ${
           isTransitioning
             ? `opacity-0 ${direction === 'next' ? 'translate-x-10' : '-translate-x-10'} scale-95`
             : 'opacity-100 translate-x-0 scale-100'
@@ -100,14 +87,14 @@ export default function Testimonials() {
           <img
             src={Commas}
             alt='commas'
-            className={`absolute -left-12 top-0 transition-all duration-500 ease-in-out ${
+            className={`absolute -left-12 top-0 hidden lg:block transition-all duration-500 ease-in-out ${
               isTransitioning
                 ? 'opacity-0 -translate-x-4 scale-90'
                 : 'opacity-100 translate-x-0 scale-100'
             }`}
           />
 
-          <p className="text-base md:text-lg leading-relaxed text-gray-800 my-5 text-center">
+          <p className="text-base lg:text-lg leading-relaxed text-gray-800 my-5 text-center">
             {currentTestimonial.text}
           </p>
 
@@ -118,7 +105,7 @@ export default function Testimonials() {
           <img
             src={Commas}
             alt='commas'
-            className={`absolute -right-12 -bottom-4 rotate-180 transition-all duration-500 ease-in-out ${
+            className={`absolute -right-12 -bottom-4 rotate-180 hidden lg:block transition-all duration-500 ease-in-out ${
               isTransitioning
                 ? 'opacity-0 translate-x-4 scale-90'
                 : 'opacity-100 translate-x-0 scale-100'
@@ -127,11 +114,11 @@ export default function Testimonials() {
         </div>
 
         <button
-          className="bg-blue-default rounded-full w-14 h-14 md:w-16 md:h-16 flex items-center justify-center cursor-pointer transition-all duration-300 hover:bg-[#08304d] hover:scale-110 flex-shrink-0"
+          className="bg-blue-default rounded-full w-10 md:w-14 h-10 md:h-14 lg:w-16 lg:h-16 flex items-center justify-center cursor-pointer transition-all duration-300 hover:bg-[#08304d] hover:scale-110 flex-shrink-0"
           onClick={goToNext}
           aria-label="Próximo depoimento"
         >
-          <ChevronRightIcon className="size-8 stroke-[2] text-white" />
+          <ChevronRightIcon className="md:size-8 size-6 stroke-[2] text-white" />
 
         </button>
       </div>

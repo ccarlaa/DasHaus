@@ -71,12 +71,12 @@ const Fac = () => {
         {/* Decorative line */}
 
         {/* Title */}
-        <h2 className="text-3xl font-light text-center mb-12 tracking-wider">
+        <h2 className="text-3xl font-light text-center mb-12 tracking-widest lg:tracking-wider">
           DÚVIDAS COMUNS
         </h2>
 
         {/* FAQ Items */}
-        <div className="space-y-0">
+        <div className="">
           {faqs.map((faq, index) => (
             <div key={index}>
               {/* Divider */}
@@ -99,10 +99,10 @@ const Fac = () => {
                 {/* Answer */}
                 <div
                   className={`overflow-hidden transition-all duration-300 ${
-                    openIndex === index ? 'max-h-96 opacity-100 mt-4' : 'max-h-0 opacity-0'
+                    openIndex === index ? 'max-h-screen opacity-100 mt-4' : 'max-h-0 opacity-0'
                   }`}
                 >
-                  <p className="text-md text-gray-200 font-regular">
+                  <p className="text-md text-gray-200 font-normal">
                     {faq.answer}
                   </p>
                 </div>
