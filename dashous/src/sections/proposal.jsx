@@ -43,7 +43,7 @@ const Proposal = () => {
             <div className="absolute left-0 top-14 w-full hidden lg:block">
                 <ProposalDetailLeft />
             </div>
-            <div className="absolute right-0 bottom-10 hidden lg:block w-full flex justify-end lg:flex">
+            <div className="absolute right-0 bottom-10 hidden lg:block w-full justify-end">
                 <ProposalDetailRight />
             </div>
         </section>
