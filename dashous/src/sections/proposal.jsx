@@ -13,7 +13,7 @@ const Proposal = () => {
                         <div className="w-full lg:w-[640px] flex justify-center flex-col gap-6 lg:gap-10">
                             <h2 className="text-gray-200 font-bold text-lg lg:text-xl tracking-wide lg:tracking-wider text-left">Você chegou até aqui por um motivo.</h2>
                             <p className="font-medium text-gray-200 text-base lg:text-lg text-left">
-                                Conflitos entre vizinhos, taxas mal explicadas, obras que nunca terminam, dinheiro sumindo do caixa, falta de transparecias, baixa participação ou uma administração sobrecarregada?
+                                Conflitos entre vizinhos, taxas mal explicadas, obras que nunca terminam, dinheiro sumindo do caixa, falta de transparência, baixa participação ou uma administração sobrecarregada?
                             </p>
                             <p className="font-medium text-gray-200 text-base lg:text-lg text-left">
                                 Esses são sintomas de uma gestão ineficiente que gera desgaste, desvalorização do imóvel e perda de qualidade de vida.

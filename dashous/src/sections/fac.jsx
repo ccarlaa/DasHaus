@@ -47,7 +47,7 @@ const Fac = () => {
         com poucos apartamentos até grandes
         complexos residenciais. Acreditamos que
         todo condomínio merece uma gestão
-        profissional, independentemente do porte.`
+        profissional, independente do porte.`
     },
     {
       question: "Mesmo com problemas sérios, ainda dá tempo de trocar a gestão do condomínio?",

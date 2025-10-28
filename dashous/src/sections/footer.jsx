@@ -25,7 +25,7 @@ const Footer = () => {
                     </a>
                     <div className="flex gap-4">
                     <a
-                        href="https://linkedin.com"
+                        href="https://www.linkedin.com/company/dashausneg%C3%B3cios/"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="w-12 h-12 flex items-center justify-center bg-[#0077B5] text-white rounded hover:opacity-90 transition-opacity"
@@ -33,7 +33,7 @@ const Footer = () => {
                         <FaLinkedin size={24} />
                     </a>
                     <a
-                        href="https://instagram.com"
+                        href="https://www.instagram.com/sindicacomproposito/"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="w-12 h-12 flex items-center justify-center bg-gradient-to-br from-[#833AB4] via-[#E1306C] to-[#F77737] text-white rounded hover:opacity-90 transition-opacity"

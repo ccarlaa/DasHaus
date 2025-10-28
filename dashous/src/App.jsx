@@ -31,7 +31,9 @@ const App = () => {
         </div>
         <Footer />
       </main>
-      <img src={WhatsApp} alt="whatsapp_button" className="size-16 cursor-pointer fixed bottom-8 right-8 hover:opacity-90" />
+      <a href="https://wa.me/556198206665" target="_blank" rel="noopener noreferrer">
+        <img src={WhatsApp} alt="whatsapp_button" className="size-16 cursor-pointer fixed bottom-8 right-8 hover:opacity-90" />
+      </a>
     </div>
   )
 }

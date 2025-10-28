@@ -4,14 +4,14 @@ import { ChevronLeftIcon, ChevronRightIcon } from "@heroicons/react/24/outline";
 
 const testimonialsData = [
   {
-    text: "Antes mesmo de conhecê-la pessoalmente, a Silvia já era referência. Sua reputação como síndica do San Marino chegou até mim por meio de amigas que elogiavam sua competência e dedicação. Quando surgiu a oportunidade de morar no nosso prédio, eu a indiquei sem hesitar e foi a melhor escolha! Hoje, no Real Bourbon, vemos de perto sua atuação firme, humana e pacificadora. A recondução ao cargo só confirma a confiança no trabalho dela.",
+    text: "Antes mesmo de conhecê-la pessoalmente, a Silvia já era referência. Sua reputação como síndica do edifício chegou até mim por meio de amigas que elogiavam sua competência e dedicação. Quando surgiu a oportunidade a indiquei sem hesitar e foi a melhor escolha! Hoje, no Real Bourbon, vemos de perto sua atuação firme, humana e pacificadora. A recondução ao cargo só confirma a confiança no trabalho dela.",
     author: "Rosiane Silva Amaral",
     title: "Jornalista e estrategista de imagem"
   },
   {
     text:
     `A dona Silvia é uma ótima síndica e trata todos os funcionários com carinho e atenção,
-    sempre se preocupado com nos e com as necessidades do condomínio.`,
+    sempre se preocupado conosco e com as necessidades do condomínio.`,
     author: "Raimundo",
     title: "Zelador"
   },
@@ -20,9 +20,9 @@ const testimonialsData = [
         `A gestão da Silvia é feita com empatia, respeito e
         equilíbrio. Mesmo nos momentos mais difíceis, ela
         mantém a calma e busca soluções justas para
-        todos. Moro há mais de 30 anos no San Marino e
+        todos. Moro há mais de 30 anos no edifício e
         posso afirmar: nosso prédio sempre melhora sob
-        seus cuidados tanto na estrutura quanto na
+        seus cuidados, tanto na estrutura quanto na
         convivência. Ela promove união entre os
         moradores, cuida da manutenção com rigor e nos
         faz sentir parte de algo maior. Silvia não é só
