@@ -11,7 +11,7 @@ const testimonialsData = [
   {
     text:
     `A dona Silvia é uma ótima síndica e trata todos os funcionários com carinho e atenção,
-    sempre se preocupado conosco e com as necessidades do condomínio.`,
+    sempre se preocupando conosco e com as necessidades do condomínio.`,
     author: "Raimundo",
     title: "Zelador"
   },

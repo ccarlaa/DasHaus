@@ -8,7 +8,8 @@ import {
     BuildingOfficeIcon,
     DocumentIcon,
     ShieldExclamationIcon,
-    UsersIcon
+    UsersIcon,
+    DocumentCheckIcon
 } from "@heroicons/react/24/outline";
 import Button from "../components/button";
 
@@ -17,6 +18,7 @@ const Benefits = () => {
     const sectionRef = useRef(null);
 
     const badges = [
+        { icon: DocumentCheckIcon, text: "Criação de um plano diretor." },
         { icon: CurrencyDollarIcon, text: "Administração financeira precisa e acessível." },
         { icon: HandRaisedIcon, text: "Auxílio na mediação de conflitos com isenção." },
         { icon: ChartBarIcon, text: "Prestação de contas clara e recorrente." },
