@@ -31,6 +31,18 @@ const testimonialsData = [
     author: "Teresa Cristina",
     title: "Moradora e proprietária"
   },
+  {
+    text:
+        `Atuar como conselheiro é muito mais eficaz quando
+         temos uma síndica como a Silvia Perez. Líder preparada
+          e acolhedora, ela conduz o condomínio com firmeza,
+           elegância e respeito. Está sempre aberta ao diálogo
+            e faz questão de incluir o conselho nas decisões
+             importantes. Sua forma de administrar inspira confiança
+              e fortalece a união da gestão.`,
+    author: "Isabela Cristina",
+    title: "Conselho"
+  },
 ];
 
 export default function Testimonials() {
